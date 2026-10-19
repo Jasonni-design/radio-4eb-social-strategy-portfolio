@@ -14,7 +14,7 @@ Then visit `http://localhost:8000`.
 
 ## GitHub Pages
 
-The site uses plain HTML, CSS and JavaScript. The workflow in `.github/workflows/pages.yml` deploys the repository root after pushes to `main`. For first-time setup, choose **Settings �� Pages �� Build and deployment �� Source �� GitHub Actions**. Keep the report at `assets/Radio4EB_Final_Report.pdf`; the preview and download buttons use that stable relative path.
+The site uses plain HTML, CSS and JavaScript. The workflow in `.github/workflows/pages.yml` deploys the repository root after pushes to `main`. For first-time setup, choose **Settings → Pages → Build and deployment → Source → GitHub Actions**. Keep the report at `assets/Radio4EB_Final_Report.pdf`; the preview and download buttons use that stable relative path.
 
 ## Content notes
 
@@ -24,4 +24,3 @@ The site uses plain HTML, CSS and JavaScript. The workflow in `.github/workflows
 - The bilingual switch is local to the visitor's browser and does not transmit preference data.
 
 See [MAINTENANCE.md](MAINTENANCE.md) for update and verification guidance.
-
