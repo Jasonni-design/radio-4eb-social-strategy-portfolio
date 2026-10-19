@@ -10,12 +10,12 @@
       const value = element.dataset[next];
       if (value !== undefined) element.innerHTML = value;
     });
-    toggle.textContent = next === 'en' ? '����' : 'EN';
-    toggle.setAttribute('aria-label', next === 'en' ? 'Switch to English' : '�л�������');
+    toggle.textContent = next === 'en' ? '中文' : 'EN';
+    toggle.setAttribute('aria-label', next === 'en' ? 'Switch to English' : '切换到中文');
     toggle.setAttribute('aria-pressed', String(next === 'zh'));
     document.title = next === 'en'
-      ? 'Radio 4EB �� Strategy Portfolio | Jason Ni'
-      : 'Radio 4EB �� ������Ʒ�� | �߼���';
+      ? 'Radio 4EB — Strategy Portfolio | Jason Ni'
+      : 'Radio 4EB — 策略作品集 | 倪嘉翔';
     localStorage.setItem('radio4eb-language', next);
   }
 
@@ -31,4 +31,3 @@
     document.querySelector('[data-pdf-fallback]').hidden = true;
   }).catch(() => {});
 })();
-
