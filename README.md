@@ -24,3 +24,7 @@ The site uses plain HTML, CSS and JavaScript. The workflow in `.github/workflows
 - The bilingual switch is local to the visitor's browser and does not transmit preference data.
 
 See [MAINTENANCE.md](MAINTENANCE.md) for update and verification guidance.
+
+## Public site
+
+https://jasonni-design.github.io/radio-4eb-social-strategy-portfolio/
