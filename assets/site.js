@@ -11,7 +11,7 @@
       if (value !== undefined) element.innerHTML = value;
     });
     toggle.textContent = 'EN / ZH';
-    toggle.setAttribute('aria-label', next === 'en' ? 'Switch to English' : '切换到中文');
+    toggle.setAttribute('aria-label', next === 'en' ? 'Switch to Chinese' : 'Switch to English');
     toggle.setAttribute('aria-pressed', String(next === 'zh'));
     document.title = next === 'en'
       ? 'Radio 4EB — Strategy Portfolio | Jason Ni'
