@@ -16,5 +16,5 @@ Appendix C assigns Jason the Audience Analysis and Competitor Analysis sections.
 
 ## Publish changes
 
-Commit changes to `main`; `.github/workflows/pages.yml` deploys the updated static files. Use a short commit message stating what changed. After each update, check the language switch, all five navigation links, the three competitor source links, mobile layout, and the embedded/downloaded PDF. Keep the PDF file alongside the site source so the project can be cloned and maintained without external paid services.
+Commit changes to `main`; `.github/workflows/pages.yml` deploys the updated static files. The workflow enables the GitHub Pages site through `configure-pages` on its first run. Use a short commit message stating what changed. After each update, check the language switch, all five navigation links, the three competitor source links, mobile layout, and the embedded/downloaded PDF. Keep the PDF file alongside the site source so the project can be cloned and maintained without external paid services.
 
