@@ -2,6 +2,10 @@
 
 This is a build-free GitHub Pages site. Edit `index.html` for the story and translation strings, `assets/site.css` for presentation, and `assets/site.js` for the language switch. Keep all content in the existing English/Chinese pairs so the two languages stay aligned.
 
+## Visual palette
+
+The current visual theme follows the source report: cover indigo `#19019F`, interior signal blue `#3E48EA`, warm yellow `#FEC601`, and pale lavender `#F0F1FF`, with white surfaces and charcoal text. Keep yellow as a decorative accent or pair it with indigo text; do not use yellow for small text on white.
+
 ## Update the report
 
 Replace `assets/Radio4EB_Final_Report.pdf` only with a specifically approved report version. Keep that exact filename, then verify both **Open report preview** and **Download original PDF**. The portfolio currently identifies the 32-page report as version 37, modified 13 October 2026.
@@ -17,3 +21,4 @@ Appendix C assigns Jason the Audience Analysis and Competitor Analysis sections.
 ## Publish changes
 
 Live site: https://jasonni-design.github.io/radio-4eb-social-strategy-portfolio/. Commit changes to `main`; `.github/workflows/pages.yml` deploys the updated static files. The workflow enables the GitHub Pages site through `configure-pages` on its first run. Use a short commit message stating what changed. After each update, check the language switch, all five navigation links, the three competitor source links, mobile layout, and the embedded/downloaded PDF. Keep the PDF file alongside the site source so the project can be cloned and maintained without external paid services.
+
