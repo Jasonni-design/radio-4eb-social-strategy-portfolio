@@ -5,3 +5,63 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 
 .pdf-frame{display:block;border:0;width:100%;height:500px;background:#e6e9dd}.pdf-frame[hidden]{display:none}@media(max-width:620px){.workflow{grid-template-columns:1fr 1fr;row-gap:19px}.workflow-arrow{display:none}.pdf-frame{height:65vh;min-height:380px}.report-preview{transform:none;padding:13px}}
+
+/* Radio 4EB report palette: indigo, signal blue, warm yellow, and pale lavender. */
+:root{--paper:#fff;--ink:#20212a;--muted:#555b68;--line:#d8d9e3;--green:#fec601;--lime:#f0f1ff;--clay:#fec601;--sky:#f0f1ff;--dark:#19019f;--serif:Arial,Helvetica,'Microsoft YaHei','Noto Sans CJK SC',sans-serif}
+body{background:#fff;color:#20212a}
+.site-header{background:rgba(255,255,255,.96)}
+.wordmark-icon span{color:#3e48ea}
+.primary-nav a{color:#19019f}
+.primary-nav a:hover,.primary-nav a:focus{color:#3e48ea}
+.language-toggle:hover{background:#19019f;color:#fff}
+.eyebrow,.section-index,.section-index>span:first-child,.metric-heading,.competitors-title h3,.proposal-head h2,.report-copy h2{color:#3e48ea}
+.live-dot{background:#fec601;box-shadow:0 0 0 4px #f0f1ff}
+.hero{background:linear-gradient(105deg,#fff 0%,#fff 62%,#f0f1ff 100%)}
+.hero-art{background:#19019f}
+.art-orbit{border-color:rgba(254,198,1,.58)}
+.orbit-two{border-color:rgba(240,241,255,.72)}
+.orbit-three{border-color:rgba(62,72,234,.8)}
+.dial-center{background:#fec601;color:#19019f}
+.dial-center strong span{color:#19019f}
+.signal{background:#3e48ea}
+.signal-b{background:#fec601}
+.signal-c{background:#f0f1ff}
+.art-note,.note-top,.note-bottom{color:#fff}
+.hero-footer,.section-pad{border-color:#d8d9e3}
+.section-pad:nth-of-type(even){background:#f0f1ff}
+.fact-strip>div,.contribution-card,.metric-panel,.format-panel,.competitor,.pilot-card,.measure-card{background:#fff;border-color:#d8d9e3}
+.fact-number,.card-count,.metric-values strong,.competitor-no,.takeaway>span,.workflow-step>span,.pilot-timeline b,.pilot-stat strong{color:#19019f}
+.contribution-card:nth-child(2){background:#f0f1ff}
+.ownership-note,.audience-note,.takeaway{background:#f0f1ff;border-color:#3e48ea}
+.ownership-note strong,.audience-note strong{color:#19019f}
+.bar-track{background:#f0f1ff}
+.bar-track span,.format-line b i{background:#3e48ea}
+.legend-reach{background:#3e48ea}
+.legend-interaction{background:#fec601}
+.competitor-top,.competitor-type,.metric-source,.method-note,.fine-print{color:#555b68}
+.competitor>a,.text-link,.download-link{color:#19019f}
+.competitor>a:hover,.download-link:hover{color:#3e48ea}
+.workflow-step{border-color:#d8d9e3}
+.workflow-step>span{background:#f0f1ff}
+.workflow-arrow{color:#3e48ea}
+.pilot-timeline i{background:#3e48ea}
+.proposal-disclaimer{border-color:#fec601;background:#fffaf0}
+.download-button{background:#19019f;color:#fff;border-color:#19019f}
+.download-button:hover{background:#3e48ea;border-color:#3e48ea;color:#fff}
+.download-link{border-color:#3e48ea}
+.report-preview{background:#f0f1ff;border-color:#d8d9e3}
+.preview-toolbar{color:#555b68}
+.preview-cover{background:#19019f;color:#fff}
+.preview-cover:before,.preview-cover:after{border-color:#fec601}
+.preview-cover:after{background:#fec601}
+.preview-symbol{color:#fec601}
+.cover-line{background:#fec601}
+.cover-stamp{color:#fff;border-color:#fec601}
+.site-footer{background:#19019f;color:#fff}
+.footer-mark .wordmark-icon,.site-footer p strong{color:#fff}
+.footer-mark .wordmark-icon span,.back-top:hover{color:#fec601}
+.back-top{border-color:rgba(255,255,255,.55);color:#fff}
+.footer-caption{color:#f0f1ff}
+.pdf-frame{background:#f0f1ff}
+@media(max-width:620px){.site-header{background:rgba(255,255,255,.98)}.primary-nav{background:#fff;border-bottom:1px solid #d8d9e3}.hero{background:linear-gradient(180deg,#fff 0%,#f0f1ff 100%)}}
+
