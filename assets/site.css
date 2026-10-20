@@ -64,4 +64,11 @@ body{background:#fff;color:#20212a}
 .footer-caption{color:#f0f1ff}
 .pdf-frame{background:#f0f1ff}
 @media(max-width:620px){.site-header{background:rgba(255,255,255,.98)}.primary-nav{background:#fff;border-bottom:1px solid #d8d9e3}.hero{background:linear-gradient(180deg,#fff 0%,#f0f1ff 100%)}}
+.art-note{color:#19019f}
+.research .section-index,.research .section-index>span:first-child{color:#fec601}
+.research-title h2,.competitors-title h3{color:#fff}
+.metric-panel,.format-panel{background:#2513b5;border-color:#6d66df;color:#fff}
+.research .metric-heading{color:#f0f1ff}
+.metric-values strong{color:#fec601}
+.note-symbol{color:#3e48ea}
 
